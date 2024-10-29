@@ -1,3 +1,6 @@
+
+
+
 const teamMembers = [
   {
     name: "Marco Bianchi",
@@ -36,3 +39,8 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+const teamContacts = document.getElementById("team-contacts");
+
+teamMembers.forEach((member) => {
+  teamContacts.innerHTML += `<div class="col- col-xl-4">
